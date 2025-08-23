@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sentiment Analyzer - Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="login-card">
+    <h1>🔹 Sentiment Analyzer 🔹</h1>
+
+    <div class="input-group">
+      <label>Username / Email</label>
+      <input type="text" id="username" placeholder="Enter your username">
+    </div>
+
+    <div class="input-group password-wrapper">
+      <label>Password</label>
+      <input type="password" id="password" placeholder="Enter your password">
+      <span class="toggle-password" onclick="togglePassword()">👁</span>
+    </div>
+
+    <p id="error" class="error"></p>
+
+    <button class="btn btn-login" onclick="login()">Login</button>
+    <button class="btn btn-register">Register</button>
+
+    <div class="forgot">Forgot Password?</div>
+
+    <div class="social-login">
+      <button class="btn btn-google">Google</button>
+      <button class="btn btn-facebook">Facebook</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
